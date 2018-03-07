@@ -8,6 +8,19 @@ html {
 
 }
 
+.responsive-image {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    /*    min-height: 50%;
+    */
+}
+
+.block {
+    display: inline-block;
+}
+
+
 
 body {
 
@@ -111,9 +124,10 @@ img.back_top {
 
 #intro {
     position: relative;
-    bottom: 60px;
-    left: 20px;
+    /*    bottom: 15px;*/
+    /*    left: 20px;*/
     width: 400px;
+    text-align: center;
 }
 
 #f_lang {
@@ -132,4 +146,15 @@ img.back_top {
 #city {
     position: relative;
     left: 10px;
+}
+
+
+@media only screen and (min-width: 1007px) {
+    #intro {
+        position: relative;
+        bottom: 50px;
+        /*    left: 20px;*/
+        width: 400px;
+        text-align: center;
+    }
 }
