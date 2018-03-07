@@ -9,6 +9,7 @@
     width: auto;
     height: auto;
     max-width: 100%;
+    border: 1px solid white;
     /*    min-height: 50%;
     */
 }
@@ -57,12 +58,7 @@ table.center {
     margin-right: auto;
 }
 
-.historic_images {
-    width: 800px;
-    height: 500px;
-    border: 1px solid white;
-    min-height: 400px
-}
+
 
 h1,
 h3 {
