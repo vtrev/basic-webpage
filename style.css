@@ -1,0 +1,135 @@
+/*body*/
+
+html {
+
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    max-height: 3500px;
+
+}
+
+
+body {
+
+    color: aliceblue;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 15px;
+}
+
+/*Table style*/
+
+table,
+td,
+th {
+    border: 1px solid aliceblue;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Element specific styling*/
+
+/*profile picture*/
+
+#profile_pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+
+
+
+/*Paragraph Styling*/
+
+p {
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 17px;
+    /*    width: 400px;*/
+}
+
+h1,
+h3 {
+    font-family: 'Sarala', sans-serif;
+
+}
+
+
+hr {
+    display: none;
+}
+
+img.places {
+
+    width: 600;
+    height: 300;
+}
+
+img.back_top {
+
+    width: 50px;
+    height: 50px;
+}
+
+#footer {
+    height: 100px;
+    width: auto;
+}
+
+#upper {
+    display: inline-block;
+}
+
+.block {
+    display: inline-block;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+#name {
+    /*    margin-left: 0px;*/
+}
+
+#intro {
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    width: 400px;
+}
+
+#f_lang {
+    width: 400px;
+    position: relative;
+    top: 11px;
+}
+
+#top {
+    /*    background-color:blue*/
+    position: relative;
+    left: 90px;
+
+}
+
+#city {
+    position: relative;
+    left: 10px;
+}
